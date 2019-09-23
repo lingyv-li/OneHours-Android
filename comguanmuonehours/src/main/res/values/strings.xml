@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">灌木一时</string>
+
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="complete">完成</string>
+    <string name="about">关于</string>
+    <string name="submit">提交</string>
+    <string name="exit">退出</string>
+    <string name="weibo">微博</string>
+
+    <string name="tab_add">添加新词</string>
+    <string name="tab_recitation">开始背诵</string>
+    <string name="tab_target">我的目标</string>
+    <string name="tab_title_main">总览</string>
+    <string name="tab_title_list">列表</string>
+
+    <string name="tip_finish_target">恭喜！本次知识点已全部学习完成。</string>
+    <string name="list_study">已学习</string>
+    <string name="list_target">当前目标</string>
+    <string name="list_all">累积知识点数</string>
+
+    <string name="about_us">\@灌木科技</string>
+    <string name="target_hit">每次学习知识点</string>
+    <string name="num_remain">剩下%d个</string>
+    <string name="num_percent">%s%%</string>
+    <string name="num_unit"><![CDATA[%s <sup><sup><small><small><small>个</small></small></small></sup></sup>]]></string>
+    <string name="title_add_knowledge">添加知识点</string>
+    <string name="title_edit_knowledge">编辑知识点</string>
+    <string name="title_test_knowledge">知识点考查</string>
+    <string name="login">登陆</string>
+    <string name="title_activity_sign_up">注册</string>
+    <string name="team_intro">我们是来自不同高中的学生，为了同一个梦想而奋斗 \n- 支持我们吧，让我们一起走的更远</string>
+    <string name="btn_skip">太简单</string>
+    <string name="btn_blank">留空</string>
+    <string name="btn_de_blank">恢复</string>
+
+    <string name="edit_tip_no_content">请输入内容</string>
+    <string name="edit_tip_all_blanked">请保留部分不留空的字段</string>
+    <string name="edit_tip_no_blanked">请筛选诗词留空字段</string>
+    <string name="tip_list_delete">是否删除知识点？</string>
+    <string name="tip_main_load_fail">加载知识点失败，请添加知识点</string>
+    <string name="tip_save_success">记录成功</string>
+    <string name="btn_see_all">查看全文</string>
+    <string name="btn_unknow">不认识</string>
+    <string name="btn_know">认识</string>
+    <string name="setting_set_mission">任务</string>
+    <string name="tip_setting_saved">设置成功</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_phone_number_or_username">手机号或用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录或注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_phone_username">手机号/邮箱格式不正确</string>
+    <string name="prompt_username">用户名</string>
+    <string name="error_invalid_username">必须填写用户名</string>
+    <string name="error_verify_failed">验证失败，请重新登陆</string>
+    <string name="action_verify">验证</string>
+    <string name="prompt_verify_code">验证码</string>
+    <string name="action_verify_code_short">验证码</string>
+    <string name="action_sign_up">注册</string>
+    <string name="title_activity_confirm_v_code">验证码</string>
+    <string name="action_logout">注销登陆</string>
+    <string name="error_field_required">必须填写这一项</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="tip_has_done">今日任务已完成，请明天再来！</string>
+    <string name="all">所有</string>
+    <string name="blank_button_usage_title">留空按钮</string>
+    <string name="tip_blank_button">选中后留空一个片段， 该片段将会在背诵过程自动隐藏。</string>
+    <string name="ok">好的</string>
+    <string name="phone_verify_tip">注册成功，你现在可以验证手机号码。</string>
+    <string name="action_request_verify">重新获取验证码</string>
+    <string name="tip_wait_for_request">%d秒后重新发送</string>
+    <string name="tip_sending">正在发送</string>
+    <string name="qq_login_button">QQ登陆</string>
+    <string name="action_continue">继续</string>
+    <string name="drawer_open">打开抽屉</string>
+    <string name="drawer_close">关闭抽屉</string>
+    <string name="navigation_home">主页</string>
+    <string name="button_allow">允许</string>
+    <string name="button_deny">拒绝</string>
+    <string name="tip_request_login_permission">一时需要这些权限才能服务器同步。</string>
+    <string name="tag_usage_title">归类标签</string>
+    <string name="save_usage_title">保存按钮</string>
+    <string name="tip_tag">在这里填下合适的标签，归类背诵、检索更方便！</string>
+    <string name="tip_save">填写完知识点点这里保存，我们就能自动为你安排背诵啦！</string>
+    <string name="tip_show_button">看到知识点后，心中默想出留空过的内容，并点击“显示全文”按钮</string>
+    <string name="know_button_usage">选择是否认识</string>
+    <string name="tip_know_button">根据之前默想的内容是否准确，选择“太简单”、“认识”或“不认识”</string>
+    <string name="tip_drawer_login">点击头像登陆</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general" translatable="false">General</string>
+
+    <string name="pref_title_social_recommendations" translatable="false">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations" translatable="false">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name" translatable="false">Display name</string>
+    <string name="pref_default_display_name" translatable="false">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages" translatable="false">Add friends to messages</string>
+    <string-array name="pref_example_list_titles" translatable="false">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values" translatable="false">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync" translatable="false">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency" translatable="false">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles" translatable="false">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values" translatable="false">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings" translatable="false">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications" translatable="false">Notifications</string>
+
+    <string name="pref_title_new_message_notifications" translatable="false">New message notifications</string>
+
+    <string name="pref_title_ringtone" translatable="false">Ringtone</string>
+    <string name="pref_ringtone_silent" translatable="false">Silent</string>
+
+    <string name="pref_title_vibrate" translatable="false">Vibrate</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="title_login">创建或登录灌木账户</string>
+    <string name="subtitle_login">创建或登陆您的灌木账户并同步知识点、笔记与知识包</string>
+
+    <string name="title_intro_1">输入背诵</string>
+    <string name="subtitle_intro_1">错题笔记毫无压力</string>
+    <string name="title_intro_2">账号登陆</string>
+    <string name="subtitle_intro_2">进度保存自动进行</string>
+    <string name="title_intro_3">Tag系统</string>
+    <string name="subtitle_intro_3">错题管理方便快捷</string>
+    <string name="title_intro_4">自己做错的题</string>
+    <string name="subtitle_intro_4">再苦也要背下去！</string>
+    <string name="title_intro_0">革新你的错题本！</string>
+
+    <string name="title_success">欢迎使用</string>
+    <string name="prompt_phone_number">手机号</string>
+    <string name="desc_navigation_before">向前翻页</string>
+    <string name="desc_navigation_next">向后翻页</string>
+    <string name="title_activity_intro" translatable="false">IntroActivity</string>
+    <string name="title_activity_login">登陆</string>
+    <string name="tip_logout_success">注销成功！</string>
+    <string name="tags_text">标签: %s</string>
+    <string name="take_photo">照相</string>
+    <string name="set_pen_width">设置笔粗</string>
+    <string name="set_pen_color">设置颜色</string>
+    <string name="toggle_to_pen">切换为画笔</string>
+    <string name="toggle_to_eraser">切换为橡皮</string>
+    <string name="title_add_image_knowledge">添加图片知识点</string>
+    <string name="title_edit_image_knowledge">编辑图片知识点</string>
+    <string name="skip">跳过</string>
+    <string name="welcome">欢迎！</string>
+</resources>

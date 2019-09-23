@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#8BC34A</color>
+    <color name="colorPrimaryDark">#33691E</color>
+    <color name="colorAccent">#FF9800</color>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
+    <color name="black">#000000</color>
+    <color name="line_gray">#d6d6d6</color>
+    <!-- tab -->
+    <color name="tab_gray">#a2a2a2</color>
+    <color name="tab_blue">#51c3c2</color>
+
+    <color name="tab_new_knowledge">#15b9d6</color>
+    <color name="tab_start_recite">#f27935</color>
+    <color name="tab_my_target">#20bba6</color>
+
+    <color name="guide_bar_title">#ecffff</color>
+    <color name="guide_bar_blue">#01bbd2</color>
+    <color name="background">#f3f3f3</color>
+    <color name="item_choose_background">#a0a0a0</color>
+    <!-- 分隔线深颜色-->
+    <color name="color_line_gary_deep">#e5e5e4</color>
+    <color name="tab_bar_blue">#00aaf7</color>
+    <color name="line_green">#6AFF7A</color>
+    <color name="progressbar_left">#4386F3</color>
+    <color name="progressbar_right">#a4c2f3</color>
+    <!-- text color -->
+    <color name="tv_gray">#747474</color>
+
+    <!-- 留空button变灰 -->
+    <color name="btn_gray">#c8c8c8</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>

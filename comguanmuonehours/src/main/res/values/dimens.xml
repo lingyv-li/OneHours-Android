@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+    <dimen name="guide_bar_height">58dp</dimen>
+
+    <!-- xml:tab_home -->
+    <dimen name="tab_home_height">75dp</dimen>
+    <dimen name="tab_home_radiobutton_size">30dp</dimen>
+    <!-- xml:fragment_page_son -->
+    <dimen name="fragment_page_son_power_height">45dp</dimen>
+
+    <!-- usual_padding -->
+    <dimen name="guide_bar_padding_15">15dp</dimen>
+
+    <!-- guidebar -->
+    <dimen name="guide_bar_title_size">18sp</dimen>
+    <!-- tv size -->
+    <dimen name="tv_size_12">12sp</dimen>
+    <dimen name="tv_size_13">13sp</dimen>
+    <dimen name="tv_size_27">27sp</dimen>
+    <dimen name="login_input_text_size">12sp</dimen>
+    <dimen name="elevation1">4dp</dimen>
+    <dimen name="login_input_corner">3dp</dimen>
+
+</resources>
