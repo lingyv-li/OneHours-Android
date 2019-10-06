@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:one_hours/card/drawing.dart';
+import 'package:one_hours/card/text.dart';
 import 'package:one_hours/database/database.dart';
 import 'package:one_hours/database/database.dart' as database;
 import 'package:provider/provider.dart';
@@ -32,15 +34,8 @@ class _EditCardPageState extends State<EditCardPage> {
           )
         ],
       ),
-      body: Container(
-        child: SizedBox.expand(
-          child: TextField(
-            controller: _contentController,
-            keyboardType: TextInputType.multiline,
-            maxLines: null,
-          ),
-        ),
-      ),
+//      body: TextEditWidget(_contentController),
+      body: CanvasWidget(paint: Paint()..color = Colors.black),
       bottomNavigationBar: BottomAppBar(
           child: Row(
         children: <Widget>[

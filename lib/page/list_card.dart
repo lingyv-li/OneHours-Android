@@ -42,10 +42,13 @@ class ListCardTab extends StatelessWidget {
               ),
               onLongPress: null,
               onTap: () {
-                Navigator.pushNamed(context, "/card", arguments: snapshot.data[i]);
+                Navigator.pushNamed(context, "/card",
+                    arguments: snapshot.data[i]);
               },
             ).build(context),
-            separatorBuilder: (_, __) => Divider(height: 0,),
+            separatorBuilder: (_, __) => Divider(
+              height: 0,
+            ),
           );
         } else if (snapshot.hasError) {
           Future(() => Scaffold.of(context).showSnackBar(SnackBar(

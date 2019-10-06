@@ -653,20 +653,6 @@ abstract class _$Database extends GeneratedDatabase {
   $TagsTable get tags => _tags ??= $TagsTable(this);
   $TagEntriesTable _tagEntries;
   $TagEntriesTable get tagEntries => _tagEntries ??= $TagEntriesTable(this);
-  Selectable<int> countCardsQuery() {
-    return customSelectQuery('SELECT count(*) FROM cards;',
-        variables: [],
-        readsFrom: {cards}).map((QueryRow row) => row.readInt('count(*)'));
-  }
-
-  Future<List<int>> countCards() {
-    return countCardsQuery().get();
-  }
-
-  Stream<List<int>> watchCountCards() {
-    return countCardsQuery().watch();
-  }
-
   @override
   List<TableInfo> get allTables => [cards, tags, tagEntries];
 }

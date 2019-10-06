@@ -74,11 +74,7 @@ class CardWithTags {
 
 @UseMoor(
   tables: [Cards, Tags, TagEntries],
-  queries: {
-    "countCards": """
-    SELECT count(*) FROM cards;
-    """
-  },
+  queries: {},
 )
 class Database extends _$Database {
   Database()
